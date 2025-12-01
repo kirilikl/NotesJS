@@ -22,4 +22,27 @@ body{
     border-right: 1px solid var(--accent-color);
     padding: 10px;
     overflow-y: auto;
+
+}
+
+
+.noteCard{
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: var(--background-color);
+}
+
+.noteCard.active{
+    background-color: var(--accent-color);
+}
+
+.noteCard.active:hover{
+    background-color: var(--accent-color);
+}
+
+.noteCard:hover{
+    background-color: #ede0ca;
 }
