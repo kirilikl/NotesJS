@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --main-color: #ffffff;
+    --accent-color: #FFC14D;
+    --font-color: #000000;
+    --background-color: #FFF2DB;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    color: var(--font-color)
+}
+
+#notesList{
+    width: 20vw;
+    min-width: 250px;
+    border-right: 1px solid var(--accent-color);
+    padding: 10px;
+    overflow-y: auto;
+}
