@@ -19,12 +19,11 @@ body{
 #notesList{
     width: 20vw;
     min-width: 250px;
-    border-right: 1px solid var(--accent-color);
+    border-right: 2px solid var(--accent-color);
     padding: 10px;
     overflow-y: auto;
 
 }
-
 
 .noteCard{
     border: 1px solid var(--accent-color);
@@ -45,4 +44,53 @@ body{
 
 .noteCard:hover{
     background-color: #ede0ca;
+}
+
+#addBtn{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    height: 80%;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: var(--background-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+}
+
+input{
+
+    font-size: 1.5em;
+}
+
+textarea{
+    font-size: 1.5em;
+    height: 50vh;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+#saveBtn, #deleteBtn{
+    background-color: var(--accent-color);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+#deleteBtn{
+    background-color:  #FF4500;
+    color: white;
 }
